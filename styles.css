@@ -1034,4 +1034,31 @@ footer .social-links {
 .full-table-container::-webkit-scrollbar-thumb {
     background: var(--secondary-color);
     border-radius: 4px;
+}
+
+.language-switcher {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.lang-btn {
+    padding: 0.5rem 1rem;
+    background: var(--card-bg);
+    border: 1px solid rgba(255, 215, 0, 0.1);
+    border-radius: 4px;
+    color: var(--light-text);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.lang-btn:hover {
+    background: rgba(255, 215, 0, 0.1);
+}
+
+.lang-btn.active {
+    background: var(--secondary-color);
+    color: var(--dark-bg);
 } 

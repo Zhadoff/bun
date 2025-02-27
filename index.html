@@ -8,29 +8,33 @@
 </head>
 <body>
     <header>
+        <div class="language-switcher">
+            <button class="lang-btn" data-lang="ru">RU</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+        </div>
         <div class="social-links">
             <a href="https://t.me/buntoken" target="_blank" class="social-link">
                 <img src="img/telegram.png" alt="Telegram" class="social-icon">
-                Telegram
+                <span data-i18n="social_links.telegram">Telegram</span>
             </a>
             <a href="https://x.com/bun_token" target="_blank" class="social-link">
                 <img src="img/x.png" alt="X (Twitter)" class="social-icon">
-                X (Twitter)
+                <span data-i18n="social_links.twitter">X (Twitter)</span>
             </a>
         </div>
         <h1>BUN Guide</h1>
-        <p class="subtitle">Полное руководство по игре BUN</p>
+        <p class="subtitle" data-i18n="subtitle">Полное руководство по игре BUN</p>
     </header>
 
     <main>
         <section id="about">
-            <h2>Что такое BUN?</h2>
+            <h2 data-i18n="about_title">Что такое BUN?</h2>
             <div class="about-container">
                 <div class="hero-image">
                     <img src="img/bun-hero.png" alt="BUN Character" class="main-character">
                 </div>
                 <div class="about-content">
-                    <p>BUN — это Tap to Earn проект, позволяющий добывать монеты BUN простыми нажатиями на экран. В проекте можно:</p>
+                    <p data-i18n="about_description">BUN — это Tap to Earn проект, позволяющий добывать монеты BUN простыми нажатиями на экран. В проекте можно:</p>
                     <ul class="about-list">
                         <li>Зарабатывать монеты BUN вручную</li>
                         <li>Приглашать друзей и увеличивать свой доход</li>
@@ -46,29 +50,29 @@
         </section>
 
         <section id="features">
-            <h2>Основные возможности</h2>
+            <h2 data-i18n="features_title">Основные возможности</h2>
             <div class="features-grid">
                 <div class="feature-item">
                     <img src="img/mine.png" alt="Mining" class="feature-icon">
-                    <p>Зарабатывайте монеты BUN вручную</p>
+                    <p data-i18n="features_items.0">Зарабатывайте монеты BUN вручную</p>
                 </div>
                 <div class="feature-item">
                     <img src="img/friends.png" alt="Friends" class="feature-icon">
-                    <p>Приглашайте друзей и увеличивайте свой доход</p>
+                    <p data-i18n="features_items.1">Приглашайте друзей и увеличивайте свой доход</p>
                 </div>
                 <div class="feature-item">
                     <img src="img/stats.png" alt="Statistics" class="feature-icon">
-                    <p>Повышайте игровой рейтинг для увеличения добычи</p>
+                    <p data-i18n="features_items.2">Повышайте игровой рейтинг для увеличения добычи</p>
                 </div>
                 <div class="feature-item">
                     <img src="img/wallet.png" alt="Wallet" class="feature-icon">
-                    <p>Получайте пассивный доход</p>
+                    <p data-i18n="features_items.3">Получайте пассивный доход</p>
                 </div>
             </div>
         </section>
 
         <section id="gameplay">
-            <h2>Как играть?</h2>
+            <h2 data-i18n="gameplay_title">Как играть?</h2>
             <div class="gameplay-container">
                 <div class="gameplay-content">
                     <div class="gameplay-step">
@@ -97,9 +101,9 @@
         </section>
 
         <section id="mining-levels">
-            <h2>Фарм монет</h2>
+            <h2 data-i18n="mining_title">Фарм монет</h2>
             <div class="mining-info">
-                <p class="mining-description">На 1 уровне за 1 тап добывается 1 BUN. Повышая уровень, увеличивается количество BUN за одно нажатие.</p>
+                <p class="mining-description" data-i18n="mining_description">На 1 уровне за 1 тап добывается 1 BUN. Повышая уровень, увеличивается количество BUN за одно нажатие.</p>
                 
                 <div class="levels-grid">
                     <div class="level-item">
@@ -166,31 +170,31 @@
         </section>
 
         <section id="level-up">
-            <h2>Как повысить уровень?</h2>
+            <h2 data-i18n="level_up_title">Как повысить уровень?</h2>
             <div class="level-up-container">
                 <div class="level-up-image">
                     <img src="img/boost.png" alt="Level Up" class="boost-icon">
                 </div>
                 <div class="level-up-content">
-                    <p class="level-up-description">В игре 100 уровней. Уровень добычи BUN соответствует номеру уровня (например, на 100 уровне за тап даётся 100 BUN).</p>
+                    <p class="level-up-description" data-i18n="level_up_description">В игре 100 уровней. Уровень добычи BUN соответствует номеру уровня (например, на 100 уровне за тап даётся 100 BUN).</p>
                     
-                    <h3>Требования для повышения уровня:</h3>
+                    <h3 data-i18n="requirements_title">Требования для повышения уровня:</h3>
                     <div class="requirements-grid">
                         <div class="requirement-item">
                             <div class="level-badge">2</div>
-                            <p>3 реферала</p>
+                            <p data-i18n="requirements.0">3 реферала</p>
                         </div>
                         <div class="requirement-item">
                             <div class="level-badge">3</div>
-                            <p>10 рефералов или 3 реферала 2 уровня</p>
+                            <p data-i18n="requirements.1">10 рефералов или 3 реферала 2 уровня</p>
                         </div>
                         <div class="requirement-item">
                             <div class="level-badge">4</div>
-                            <p>20 рефералов или 3 реферала 3 уровня</p>
+                            <p data-i18n="requirements.2">20 рефералов или 3 реферала 3 уровня</p>
                         </div>
                         <div class="requirement-item progression">
                             <span class="progression-dots">• • •</span>
-                            <p>И так далее, вплоть до 100 уровня</p>
+                            <p data-i18n="requirements_note">И так далее, вплоть до 100 уровня</p>
                         </div>
                     </div>
                 </div>
@@ -198,15 +202,15 @@
         </section>
 
         <section id="level-system">
-            <h2>Система уровней и добычи BUN</h2>
+            <h2 data-i18n="levels_system_title">Система уровней и добычи BUN</h2>
             <div class="level-system-container">
                 <div class="level-table">
                     <table>
                         <thead>
                             <tr>
-                                <th>Уровень</th>
-                                <th>Баланс (BUN)</th>
-                                <th>Добыча за тап (BUN)</th>
+                                <th data-i18n-key="level">Уровень</th>
+                                <th data-i18n-key="balance">Баланс (BUN)</th>
+                                <th data-i18n-key="mining">Добыча за тап (BUN)</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -240,9 +244,8 @@
                             </tr>
                         </tbody>
                     </table>
-                    <button class="show-more-btn" onclick="openModal()">
+                    <button class="show-more-btn" onclick="openModal()" data-i18n="show_all_levels">
                         Показать все уровни
-                        <span class="arrow-icon">↓</span>
                     </button>
                 </div>
             </div>
@@ -251,14 +254,14 @@
             <div id="levelModal" class="modal">
                 <div class="modal-content">
                     <span class="close-btn" onclick="closeModal()">&times;</span>
-                    <h3>Полная таблица уровней</h3>
+                    <h3 data-i18n="full_levels_table">Полная таблица уровней</h3>
                     <div class="full-table-container">
                         <table>
                             <thead>
                                 <tr>
-                                    <th>Уровень</th>
-                                    <th>Баланс (BUN)</th>
-                                    <th>Добыча за тап (BUN)</th>
+                                    <th data-i18n-key="level">Уровень</th>
+                                    <th data-i18n-key="balance">Баланс (BUN)</th>
+                                    <th data-i18n-key="mining">Добыча за тап (BUN)</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -298,70 +301,31 @@
         </section>
 
         <section id="boost">
-            <h2>Буст и дополнительный заработок</h2>
+            <h2 data-i18n="boost_title">Буст и дополнительный заработок</h2>
             <div class="boost-container">
-                <div class="boost-content">
-                    <div class="energy-info">
-                        <div class="energy-header">
-                            <h3>Система энергии</h3>
-                            <div class="energy-indicator">
-                                <span class="energy-icon-small">⚡</span>
-                                <span class="energy-count">3x</span>
-                            </div>
-                        </div>
-                        <div class="boost-description">
-                            <ul class="boost-list">
-                                <li>Энергия восполняется 3 раза в сутки бесплатно</li>
-                                <li>Энергия позволяет добывать больше BUN</li>
-                                <li>Стоимость 1 уровня буста: 100 BUN</li>
-                                <li>Каждый следующий уровень: +100 BUN к стоимости</li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="boost-info">
+                    <p class="boost-description" data-i18n="boost_description">Чем выше уровень, тем больше бонусов получаешь:</p>
                     <div class="boost-grid">
                         <div class="boost-item">
                             <div class="level-header">
                                 <span class="level-number">1</span>
                                 <img src="img/coin.png" alt="BUN coin" class="coin-icon">
                             </div>
-                            <div class="boost-value">100 BUN</div>
-                            <div class="boost-cost">Стоимость: 100 BUN</div>
+                            <div class="boost-value" data-i18n="boost_values.level1">100 BUN</div>
+                        </div>
+                        <div class="boost-item">
+                            <div class="level-header">
+                                <span class="level-number">2</span>
+                                <img src="img/coin.png" alt="BUN coin" class="coin-icon">
+                            </div>
+                            <div class="boost-value" data-i18n="boost_values.level2">200 BUN</div>
                         </div>
                         <div class="boost-item">
                             <div class="level-header">
                                 <span class="level-number">3</span>
                                 <img src="img/coin.png" alt="BUN coin" class="coin-icon">
                             </div>
-                            <div class="boost-value">300 BUN</div>
-                            <div class="boost-cost">Стоимость: 300 BUN</div>
-                        </div>
-                        <div class="boost-item">
-                            <div class="level-header">
-                                <span class="level-number">4</span>
-                                <img src="img/coin.png" alt="BUN coin" class="coin-icon">
-                            </div>
-                            <div class="boost-value">400 BUN</div>
-                        </div>
-                        <div class="boost-item">
-                            <div class="level-header">
-                                <span class="level-number">5</span>
-                                <img src="img/coin.png" alt="BUN coin" class="coin-icon">
-                            </div>
-                            <div class="boost-value">500 BUN</div>
-                        </div>
-                        <div class="boost-item">
-                            <div class="level-header">
-                                <span class="level-number">6</span>
-                                <img src="img/coin.png" alt="BUN coin" class="coin-icon">
-                            </div>
-                            <div class="boost-value">600 BUN</div>
-                        </div>
-                        <div class="boost-item">
-                            <div class="level-header">
-                                <span class="level-number">7</span>
-                                <img src="img/coin.png" alt="BUN coin" class="coin-icon">
-                            </div>
-                            <div class="boost-value">700 BUN</div>
+                            <div class="boost-value" data-i18n="boost_values.level3">300 BUN</div>
                         </div>
                         <div class="boost-item dots">
                             <span>•••</span>
@@ -371,28 +335,28 @@
                                 <span class="level-number">97</span>
                                 <img src="img/coin.png" alt="BUN coin" class="coin-icon">
                             </div>
-                            <div class="boost-value">97,000 BUN</div>
+                            <div class="boost-value" data-i18n="boost_values.level97">97,000 BUN</div>
                         </div>
                         <div class="boost-item">
                             <div class="level-header">
                                 <span class="level-number">98</span>
                                 <img src="img/coin.png" alt="BUN coin" class="coin-icon">
                             </div>
-                            <div class="boost-value">98,000 BUN</div>
+                            <div class="boost-value" data-i18n="boost_values.level98">98,000 BUN</div>
                         </div>
                         <div class="boost-item">
                             <div class="level-header">
                                 <span class="level-number">99</span>
                                 <img src="img/coin.png" alt="BUN coin" class="coin-icon">
                             </div>
-                            <div class="boost-value">99,000 BUN</div>
+                            <div class="boost-value" data-i18n="boost_values.level99">99,000 BUN</div>
                         </div>
                         <div class="boost-item">
                             <div class="level-header">
                                 <span class="level-number">100</span>
                                 <img src="img/coin.png" alt="BUN coin" class="coin-icon">
                             </div>
-                            <div class="boost-value">100,000 BUN</div>
+                            <div class="boost-value" data-i18n="boost_values.level100">100,000 BUN</div>
                         </div>
                     </div>
                 </div>
@@ -400,22 +364,22 @@
         </section>
 
         <section id="tasks">
-            <h2>Дополнительные задания</h2>
+            <h2 data-i18n="tasks_title">Дополнительные задания</h2>
             <div class="tasks-container">
                 <div class="task">
-                    <h3>Ежедневные задания</h3>
-                    <div class="task-item">
+                    <h3 data-i18n="daily_tasks">Ежедневные задания</h3>
+                    <div class="task-item" data-task-key="youtube">
                         <img src="img/youtube.png" alt="YouTube" class="task-icon">
                         <p>Просмотр YouTube (+10,000 BUN)</p>
                     </div>
-                    <div class="task-item">
+                    <div class="task-item" data-task-key="telegram">
                         <img src="img/telegram.png" alt="Telegram" class="task-icon">
                         <p>Присоединиться к TG Community (+55,000 BUN)</p>
                     </div>
                 </div>
                 <div class="task">
-                    <h3>Партнерская программа</h3>
-                    <div class="task-item">
+                    <h3 data-i18n="affiliate_program">Партнерская программа</h3>
+                    <div class="task-item" data-task-key="telegram_channel">
                         <img src="img/telegram.png" alt="Telegram Channel" class="task-icon">
                         <p>
                             <a href="https://t.me/buntoken" target="_blank" class="social-link">
@@ -423,7 +387,7 @@
                             </a>
                         </p>
                     </div>
-                    <div class="task-item">
+                    <div class="task-item" data-task-key="twitter">
                         <img src="img/x.png" alt="X (Twitter)" class="task-icon">
                         <p>
                             <a href="https://x.com/bun_token" target="_blank" class="social-link">
@@ -431,7 +395,7 @@
                             </a>
                         </p>
                     </div>
-                    <div class="task-item">
+                    <div class="task-item" data-task-key="invite">
                         <img src="img/invite.png" alt="Invite" class="task-icon">
                         <p>За каждого приглашенного друга +500 BUN</p>
                     </div>
@@ -440,22 +404,22 @@
         </section>
 
         <section id="earnings">
-            <h2>Таблица пассивного дохода</h2>
+            <h2 data-i18n="earnings_title">Таблица пассивного дохода</h2>
             <div class="earnings-info">
                 <ul class="earnings-list">
-                    <li>За ежедневный вход в игру начисляются дополнительные монеты BUN</li>
-                    <li>Пассивный доход работает в течение 3 часов после выхода из игры</li>
-                    <li>Для восстановления авто-добычи необходимо снова зайти в игру</li>
+                    <li data-i18n="earnings_description.0">За ежедневный вход в игру начисляются дополнительные монеты BUN</li>
+                    <li data-i18n="earnings_description.1">Пассивный доход работает в течение 3 часов после выхода из игры</li>
+                    <li data-i18n="earnings_description.2">Для восстановления авто-добычи необходимо снова зайти в игру</li>
                 </ul>
             </div>
             <div class="table-container">
                 <table>
                     <thead>
                         <tr>
-                            <th>Уровень</th>
-                            <th>1 час</th>
-                            <th>2 часа</th>
-                            <th>3 часа</th>
+                            <th data-i18n-key="level">Уровень</th>
+                            <th data-i18n-key="hour1">1 час</th>
+                            <th data-i18n-key="hour2">2 часа</th>
+                            <th data-i18n-key="hour3">3 часа</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -492,19 +456,19 @@
         </section>
 
         <section id="earn-more">
-            <h2>Как заработать больше?</h2>
+            <h2 data-i18n="earn_more_title">Как заработать больше?</h2>
             <div class="referral-container">
                 <div class="referral-image">
                     <img src="img/friends.png" alt="Referral Program" class="referral-icon">
                 </div>
                 <div class="referral-content">
-                    <h3>Реферальная программа</h3>
+                    <h3 data-i18n="referral_program">Реферальная программа</h3>
                     <div class="referral-info">
                         <ul class="referral-list">
-                            <li>Приглашай друзей и увеличивай свой уровень</li>
-                            <li>Отправляй ссылку из раздела «Friends»</li>
-                            <li>За каждого приглашённого друга начисляется бонус в BUN</li>
-                            <li>С каждым новым уровнем бонус за реферала увеличивается на 500 BUN</li>
+                            <li data-i18n="referral_description.0">Приглашай друзей и увеличивай свой уровень</li>
+                            <li data-i18n="referral_description.1">Отправляй ссылку из раздела «Friends»</li>
+                            <li data-i18n="referral_description.2">За каждого приглашённого друга начисляется бонус в BUN</li>
+                            <li data-i18n="referral_description.3">С каждым новым уровнем бонус за реферала увеличивается на 500 BUN</li>
                         </ul>
                     </div>
                     <div class="referral-grid">
@@ -533,16 +497,16 @@
         </section>
 
         <section id="airdrop">
-            <h2>Дроп токена BUN</h2>
+            <h2 data-i18n="airdrop_title">Дроп токена BUN</h2>
             <div class="airdrop-container">
                 <div class="airdrop-image">
                     <img src="img/airdrop.png" alt="BUN Token Airdrop" class="airdrop-icon">
                 </div>
                 <div class="airdrop-content">
-                    <p class="airdrop-description">Начинай добывать BUN прямо сейчас и отправляйся вместе с нами в увлекательное приключение!</p>
+                    <p class="airdrop-description" data-i18n="airdrop_description">Начинай добывать BUN прямо сейчас и отправляйся вместе с нами в увлекательное приключение!</p>
                     <div class="airdrop-button-container">
                         <a href="https://t.me/buntoken" target="_blank" class="airdrop-button">
-                            <span>OPEN BUN</span>
+                            <span data-i18n="open_bun">OPEN BUN</span>
                         </a>
                     </div>
                 </div>
@@ -555,11 +519,11 @@
             <div class="social-links">
                 <a href="https://t.me/buntoken" target="_blank" class="social-link">
                     <img src="img/telegram.png" alt="Telegram" class="social-icon">
-                    Telegram
+                    <span data-i18n="social_links.telegram">Telegram</span>
                 </a>
                 <a href="https://x.com/bun_token" target="_blank" class="social-link">
                     <img src="img/x.png" alt="X (Twitter)" class="social-icon">
-                    X (Twitter)
+                    <span data-i18n="social_links.twitter">X (Twitter)</span>
                 </a>
             </div>
             <p class="copyright">© <span id="currentYear"></span> BUN Guide</p>
@@ -593,6 +557,12 @@
     });
 
     document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+    <script src="js/translations.js"></script>
+    <script src="js/i18n.js"></script>
+    <script>
+        // Инициализация системы переводов
+        const i18n = new I18n();
     </script>
 </body>
 </html> 
