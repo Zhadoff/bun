@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUN Guide - Руководство по игре</title>
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#1a1a1a">
+    <meta name="theme-color" content="#1a1a1a">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="language-switcher">
+            <button class="lang-btn active" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="ru">RU</button>
+        </div>
+        <h1>BUN Guide</h1>
+        <p class="subtitle" data-i18n="subtitle">BUN Game Guide</p>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2 data-i18n="about_title">What is BUN?</h2>
+            <div class="about-container">
+                <div class="hero-image">
+                    <img src="img/bun-hero.png" alt="BUN Character" class="main-character">
+                </div>
+                <div class="about-content">
+                    <p data-i18n="about_description">BUN is a Tap to Earn project that allows you to mine BUN coins with simple screen taps. In the project you can:</p>
+                    <ul class="about-list">
+                        <li data-i18n="about_list.0">Earn BUN coins manually</li>
+                        <li data-i18n="about_list.1">Invite friends and increase your income</li>
+                        <li data-i18n="about_list.2">Raise your game rating to increase mining</li>
+                        <li data-i18n="about_list.3">Receive passive income</li>
+                        <li data-i18n="about_list.4">Complete daily tasks for additional earnings</li>
+                        <li data-i18n="about_list.5">Participate in the affiliate program</li>
+                        <li data-i18n="about_list.6">Automatically receive coins every 3 hours</li>
+                        <li data-i18n="about_list.7">Level up to increase rewards</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <h2 data-i18n="features_title">Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <img src="img/mine.png" alt="Mining" class="feature-icon">
+                    <p data-i18n="features_items.0">Earn BUN coins manually</p>
+                </div>
+                <div class="feature-item">
+                    <img src="img/friends.png" alt="Friends" class="feature-icon">
+                    <p data-i18n="features_items.1">Invite friends and increase your income</p>
+                </div>
+                <div class="feature-item">
+                    <img src="img/stats.png" alt="Statistics" class="feature-icon">
+                    <p data-i18n="features_items.2">Raise your game rating to increase mining</p>
+                </div>
+                <div class="feature-item">
+                    <img src="img/wallet.png" alt="Wallet" class="feature-icon">
+                    <p data-i18n="features_items.3">Receive passive income</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="mining-levels">
+            <h2 data-i18n="mining_title">Main Game Mechanics</h2>
+            <div class="mining-info">
+                <h3 data-i18n="mining_subtitle">How to Play?</h3>
+                <div class="gameplay-steps">
+                    <p class="step" data-i18n="mining_steps.0">1. Tap the screen to collect BUN tokens</p>
+                    <p class="step" data-i18n="mining_steps.1">2. Press the BUN button to start the process</p>
+                    <p class="step" data-i18n="mining_steps.2">3. Earned coins are displayed on the main screen</p>
+                </div>
+                <div class="gameplay-image">
+                    <img src="img/gameplay.png" alt="Gameplay" class="gameplay-icon">
+                </div>
+                <h3 class="farming-title" data-i18n="farming_title">Coin Farming</h3>
+                <p class="mining-description" data-i18n="mining_description">At level 1, you mine 1 BUN per tap. As you level up, the amount of BUN per tap increases.</p>
+                
+                <div class="levels-grid">
+                    <div class="level-item">
+                        <div class="level-header">
+                            <span class="level-number">1</span>
+                            <img src="img/coin.png" alt="BUN coin" class="coin-icon">
+                        </div>
+                        <p class="level-reward" data-i18n="level_rewards.level1">1 BUN per tap</p>
+                    </div>
+                    
+                    <div class="level-item">
+                        <div class="level-header">
+                            <span class="level-number">2</span>
+                            <img src="img/coin.png" alt="BUN coin" class="coin-icon">
+                        </div>
+                        <p class="level-reward" data-i18n="level_rewards.level2">2 BUN per tap</p>
+                    </div>
+                    
+                    <div class="level-item">
+                        <div class="level-header">
+                            <span class="level-number">3</span>
+                            <img src="img/coin.png" alt="BUN coin" class="coin-icon">
+                        </div>
+                        <p class="level-reward" data-i18n="level_rewards.level3">3 BUN per tap</p>
+                    </div>
+                    
+                    <div class="level-item">
+                        <div class="level-header">
+                            <span class="level-number">4</span>
+                            <img src="img/coin.png" alt="BUN coin" class="coin-icon">
+                        </div>
+                        <p class="level-reward" data-i18n="level_rewards.level4">4 BUN per tap</p>
+                    </div>
+
+                    <div class="level-item dots">
+                        <span>•••</span>
+                    </div>
+
+                    <div class="level-item">
+                        <div class="level-header">
+                            <span class="level-number">98</span>
+                            <img src="img/coin.png" alt="BUN coin" class="coin-icon">
+                        </div>
+                        <p class="level-reward" data-i18n="level_rewards.level98">98 BUN per tap</p>
+                    </div>
+
+                    <div class="level-item">
+                        <div class="level-header">
+                            <span class="level-number">99</span>
+                            <img src="img/coin.png" alt="BUN coin" class="coin-icon">
+                        </div>
+                        <p class="level-reward" data-i18n="level_rewards.level99">99 BUN per tap</p>
+                    </div>
+
+                    <div class="level-item">
+                        <div class="level-header">
+                            <span class="level-number">100</span>
+                            <img src="img/coin.png" alt="BUN coin" class="coin-icon">
+                        </div>
+                        <p class="level-reward" data-i18n="level_rewards.level100">100 BUN per tap</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="levels-system">
+            <h2 data-i18n="levels_system_title">BUN Levels and Mining System</h2>
+            <div class="level-system-container">
+                <div class="level-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th data-i18n="table_headers.level">Level</th>
+                                <th data-i18n="table_headers.balance">Balance (BUN)</th>
+                                <th data-i18n="table_headers.mining">Mining per tap (BUN)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>0 – 100K</td>
+                                <td>+1</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>100K – 300K</td>
+                                <td>+2</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>300K – 600K</td>
+                                <td>+3</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>600K – 1M</td>
+                                <td>+4</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>1M – 1.5M</td>
+                                <td>+5</td>
+                            </tr>
+                            <tr class="dots-row">
+                                <td colspan="3">• • •</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button class="show-more-btn" onclick="openModal()" data-i18n="show_all_levels">Show All Levels</button>
+                </div>
+            </div>
+
+            <!-- Модальное окно -->
+            <div id="levelModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal()">&times;</span>
+                    <h3 data-i18n="full_levels_table">Full Levels Table</h3>
+                    <div class="full-table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th data-i18n="modal_table_headers.level">Level</th>
+                                    <th data-i18n="modal_table_headers.balance">Balance (BUN)</th>
+                                    <th data-i18n="modal_table_headers.mining">Mining per tap (BUN)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Первые 15 уровней -->
+                                <tr><td>1</td><td>0 – 100K</td><td>+1</td></tr>
+                                <tr><td>2</td><td>100K – 300K</td><td>+2</td></tr>
+                                <tr><td>3</td><td>300K – 600K</td><td>+3</td></tr>
+                                <tr><td>4</td><td>600K – 1M</td><td>+4</td></tr>
+                                <tr><td>5</td><td>1M – 1.5M</td><td>+5</td></tr>
+                                <tr><td>6</td><td>1.5M – 2.1M</td><td>+6</td></tr>
+                                <tr><td>7</td><td>2.1M – 2.8M</td><td>+7</td></tr>
+                                <tr><td>8</td><td>2.8M – 3.6M</td><td>+8</td></tr>
+                                <tr><td>9</td><td>2.8M – 3.6M</td><td>+9</td></tr>
+                                <tr><td>10</td><td>3.6M – 3.6M</td><td>+10</td></tr>
+                                <tr><td>11</td><td>3.6M – 4.5M</td><td>+11</td></tr>
+                                <tr><td>12</td><td>4.5M – 5.5M</td><td>+12</td></tr>
+                                <tr><td>13</td><td>5.5M – 6.6M</td><td>+13</td></tr>
+                                <tr><td>14</td><td>6.6M – 7.8M</td><td>+14</td></tr>
+                                <tr><td>15</td><td>7.8M – 9.1M</td><td>+15</td></tr>
+                                <!-- Средние уровни -->
+                                <tr class="dots-row"><td colspan="3">• • •</td></tr>
+                                <tr><td>60</td><td>177M – 183M</td><td>+60</td></tr>
+                                <tr><td>61</td><td>183M – 189.1M</td><td>+61</td></tr>
+                                <tr class="dots-row"><td colspan="3">• • •</td></tr>
+                                <tr><td>80</td><td>316M – 324M</td><td>+80</td></tr>
+                                <tr><td>81</td><td>324M – 332.1M</td><td>+81</td></tr>
+                                <tr class="dots-row"><td colspan="3">• • •</td></tr>
+                                <tr><td>95</td><td>446.5M – 456M</td><td>+95</td></tr>
+                                <tr><td>96</td><td>456M – 465.6M</td><td>+96</td></tr>
+                                <tr class="dots-row"><td colspan="3">• • •</td></tr>
+                                <tr><td>100</td><td>495M – 505M</td><td>+100</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tasks">
+            <h2 data-i18n="tasks_title">Additional Tasks</h2>
+            <div class="tasks-container">
+                <div class="task">
+                    <h3 data-i18n="daily_tasks">Daily Tasks</h3>
+                    <div class="task-item" data-task-key="youtube">
+                        <img src="img/youtube.png" alt="YouTube" class="task-icon">
+                        <p data-i18n="daily_tasks_items.youtube">Watch YouTube (+10,000 BUN)</p>
+                    </div>
+                    <div class="task-item" data-task-key="telegram">
+                        <img src="img/telegram.png" alt="Telegram" class="task-icon">
+                        <p data-i18n="daily_tasks_items.telegram">Join TG Community (+55,000 BUN)</p>
+                    </div>
+                </div>
+                <div class="task">
+                    <h3 data-i18n="affiliate_program">Affiliate Program</h3>
+                    <div class="task-item" data-task-key="telegram_channel">
+                        <img src="img/telegram.png" alt="Telegram Channel" class="task-icon">
+                        <p>
+                            <a href="https://t.me/buntoken" target="_blank" class="social-link" data-i18n="affiliate_items.telegram">
+                                Join our Telegram channel (+100,000 BUN)
+                            </a>
+                        </p>
+                    </div>
+                    <div class="task-item" data-task-key="twitter">
+                        <img src="img/x.png" alt="X (Twitter)" class="task-icon">
+                        <p>
+                            <a href="https://x.com/bun_token" target="_blank" class="social-link" data-i18n="affiliate_items.twitter">
+                                Follow on X (+50,000 BUN)
+                            </a>
+                        </p>
+                    </div>
+                    <div class="task-item" data-task-key="invite">
+                        <img src="img/invite.png" alt="Invite" class="task-icon">
+                        <p data-i18n="affiliate_items.invite">For each invited friend +500 BUN</p>
+                    </div>
+                </div>
+            </div>
+            <p class="tasks-note" data-i18n="tasks_note">In the 'Mine' section, you can complete tasks and receive additional BUN tokens</p>
+        </section>
+
+        <section id="earnings">
+            <h2 data-i18n="earnings_title">Passive Income Table</h2>
+            <div class="earnings-info">
+                <ul class="earnings-list">
+                    <li data-i18n="earnings_description.0">Additional BUN coins are awarded for daily login</li>
+                    <li data-i18n="earnings_description.1">Passive income works for 3 hours after leaving the game</li>
+                    <li data-i18n="earnings_description.2">To restore auto-mining, you need to log back into the game</li>
+                </ul>
+            </div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th data-i18n="earnings_table.level">Level</th>
+                            <th data-i18n="earnings_table.hour1">1 hour</th>
+                            <th data-i18n="earnings_table.hour2">2 hours</th>
+                            <th data-i18n="earnings_table.hour3">3 hours</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-i18n="table_rows.level1">Level 1</td>
+                            <td>100</td>
+                            <td>50</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="table_rows.level2">Level 2</td>
+                            <td>200</td>
+                            <td>100</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="table_rows.level3">Level 3</td>
+                            <td>300</td>
+                            <td>150</td>
+                            <td>75</td>
+                        </tr>
+                        <tr class="dots-row">
+                            <td colspan="4">• • •</td>
+                        </tr>
+                        <tr class="highlight-row">
+                            <td data-i18n="table_rows.level100">Level 100</td>
+                            <td>10,000</td>
+                            <td>5,000</td>
+                            <td>2,500</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="earn-more">
+            <h2 data-i18n="earn_more_title">How to Earn More?</h2>
+            <div class="referral-container">
+                <div class="referral-content">
+                    <h3 data-i18n="referral_program">Referral Program</h3>
+                    <div class="referral-image">
+                        <img src="img/referral.png" alt="Referral Program" class="referral-icon">
+                    </div>
+                    <div class="referral-info">
+                        <ul class="referral-list">
+                            <li data-i18n="referral_list.0">Referral Program</li>
+                            <li data-i18n="referral_list.1">Invite friends and increase your level</li>
+                            <li data-i18n="referral_list.2">Share your link from the 'Friends' section</li>
+                            <li data-i18n="referral_list.3">Receive a BUN bonus for each invited friend</li>
+                            <li data-i18n="referral_list.4">10% bonus from all tokens mined by your referrals. Rewards are distributed daily.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="airdrop">
+            <h2 data-i18n="airdrop_title">BUN Token Airdrop</h2>
+            <div class="airdrop-container">
+                <div class="airdrop-image">
+                    <img src="img/airdrop.png" alt="BUN Token Airdrop" class="airdrop-icon">
+                </div>
+                <div class="airdrop-content">
+                    <p class="airdrop-description" data-i18n="airdrop_description">Start mining BUN now and join us on an exciting adventure!</p>
+                    <div class="airdrop-button-container">
+                        <a href="https://t.me/buntoken" target="_blank" class="airdrop-button">
+                            <span data-i18n="play_bun">PLAY BUN</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://t.me/buntoken" target="_blank" class="social-link">
+                    <img src="img/telegram.png" alt="Telegram" class="social-icon">
+                </a>
+                <a href="https://x.com/bun_token" target="_blank" class="social-link">
+                    <img src="img/x.png" alt="X (Twitter)" class="social-icon">
+                </a>
+            </div>
+            <p class="copyright">© <span id="currentYear"></span> BUN Guide</p>
+        </div>
+    </footer>
+
+    <script>
+    function openModal() {
+        document.getElementById('levelModal').style.display = 'block';
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+        document.getElementById('levelModal').style.display = 'none';
+        document.body.style.overflow = 'auto';
+    }
+
+    // Закрытие модального окна при клике вне его
+    window.onclick = function(event) {
+        const modal = document.getElementById('levelModal');
+        if (event.target == modal) {
+            closeModal();
+        }
+    }
+
+    // Закрытие модального окна при нажатии Esc
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape') {
+            closeModal();
+        }
+    });
+
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+    <script src="js/translations.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            if (!window.translations) {
+                console.error('Translations not loaded! Check if translations.js is loaded correctly');
+                return;
+            }
+            console.log('Available translations:', Object.keys(window.translations));
+            console.log('Sample translation ru:', window.translations.ru?.subtitle);
+            console.log('Sample translation en:', window.translations.en?.subtitle);
+
+            function switchLanguage(lang) {
+                console.log('Switching to language:', lang);
+                
+                // Обновляем кнопки
+                document.querySelectorAll('.lang-btn').forEach(btn => {
+                    btn.classList.remove('active');
+                    if (btn.dataset.lang === lang) {
+                        btn.classList.add('active');
+                    }
+                });
+
+                // Обновляем язык страницы
+                document.documentElement.lang = lang;
+                localStorage.setItem('language', lang);
+
+                // Обновляем переводы
+                document.querySelectorAll('[data-i18n]').forEach(element => {
+                    const key = element.getAttribute('data-i18n');
+                    let translation = window.translations[lang];
+                    
+                    try {
+                        key.split('.').forEach(k => {
+                            translation = translation[k];
+                        });
+                        
+                        if (translation) {
+                            console.log(`Translating ${key} to:`, translation);
+                            element.textContent = translation;
+                        }
+                    } catch (error) {
+                        console.warn(`Translation error for key: ${key}`, error);
+                    }
+                });
+            }
+
+            // Добавляем обработчики на кнопки
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const lang = this.dataset.lang;
+                    console.log('Language button clicked:', lang);
+                    switchLanguage(lang);
+                });
+            });
+
+            // Устанавливаем начальный язык
+            const savedLang = localStorage.getItem('language') || 'en';
+            switchLanguage(savedLang);
+        });
+    </script>
+</body>
+</html> 
